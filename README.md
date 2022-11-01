@@ -1,0 +1,2 @@
+# StudentiXML
+Vytvoril Adam Hajro.
