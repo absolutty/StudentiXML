@@ -11,3 +11,19 @@ Po načítaní sú dané dáta ukladané do .xml súboru (súbor má názov id s
 XSD schémy.
 
 Pri nesprávnom formátovaní dátumov je zabezpečené vypisovanie chybného výstupu do súboru errors-log.txt
+
+```xml
+<record>
+    <student>
+        <id>S1419020048</id>
+        <name>Denisa</name>
+        <surname>Tyvoľská</surname>
+    </student>
+    <study>
+        <id>S1419020048-5819T01</id>
+        <field_code>4276</field_code>
+        <field>ošetrovateľstvo</field>
+        ...
+    </study>
+</record>
+```
