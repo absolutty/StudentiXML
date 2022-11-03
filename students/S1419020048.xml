@@ -1,0 +1,280 @@
+<record>
+  <student>
+    <id>S1419020048</id>
+    <name>Denisa</name>
+    <surname>Tyvoľská</surname>
+  </student>
+  <study>
+    <id>S1419020048-5819T01</id>
+    <field_code>4276</field_code>
+    <field>ošetrovateľstvo</field>
+    <course>
+      <code>OGER</code>
+      <name>&quot;Geriatria a ošetrovateľstvo v geriatrii&quot;</name>
+      <type>P</type>
+      <semester>ZS</semester>
+      <ayear>2020/2021</ayear>
+      <year_of_study>2</year_of_study>
+      <exam>
+        <result>C</result>
+        <date>17.02.2021</date>
+        <teacher>PhDr. Jana 09ed673, PhD.</teacher>
+        <grade>2</grade>
+        <credits_reg>2</credits_reg>
+        <credits_obt>2</credits_obt>
+      </exam>
+    </course>
+  </study>
+  <study>
+    <id>S1419020048-5819T01</id>
+    <field_code>4276</field_code>
+    <field>ošetrovateľstvo</field>
+    <course>
+      <code>OCHOSE1</code>
+      <name>Chirurgia a ošetrovateľstvo v chirurgii (1)</name>
+      <type>P</type>
+      <semester>ZS</semester>
+      <ayear>2020/2021</ayear>
+      <year_of_study>2</year_of_study>
+      <exam>
+        <result>B</result>
+        <date>20.01.2021</date>
+        <teacher>Ing. Ivan 09d50</teacher>
+        <grade>2,5</grade>
+        <credits_reg>2</credits_reg>
+        <credits_obt>2</credits_obt>
+      </exam>
+    </course>
+  </study>
+  <study>
+    <id>S1419020048-5819T01</id>
+    <field_code>4276</field_code>
+    <field>ošetrovateľstvo</field>
+    <course>
+      <code>OKLPS</code>
+      <name>Klinická psychológia</name>
+      <type>P</type>
+      <semester>ZS</semester>
+      <ayear>2020/2021</ayear>
+      <year_of_study>2</year_of_study>
+      <exam>
+        <result>A</result>
+        <date>02.02.2021</date>
+        <teacher>doc. PhDr. Mgr. Tatiana 92659fecd, PhD.</teacher>
+        <grade>1</grade>
+        <credits_reg>1</credits_reg>
+        <credits_obt>1</credits_obt>
+      </exam>
+    </course>
+  </study>
+  <study>
+    <id>S1419020048-5819T01</id>
+    <field_code>4276</field_code>
+    <field>ošetrovateľstvo</field>
+    <course>
+      <code>OKLC3</code>
+      <name>&quot;Klinické cvičenia (#3)&quot;</name>
+      <type>P</type>
+      <semester>ZS</semester>
+      <ayear>2020/2021</ayear>
+      <year_of_study>2</year_of_study>
+      <exam>
+        <result>A</result>
+        <date>29.12.2020</date>
+        <teacher>doc. PhDr. Mária 4cb8f3de, PhD.</teacher>
+        <grade>1</grade>
+        <credits_reg>7</credits_reg>
+        <credits_obt>7</credits_obt>
+      </exam>
+    </course>
+  </study>
+  <study>
+    <id>S1419020048-5819T01</id>
+    <field_code>4276</field_code>
+    <field>ošetrovateľstvo</field>
+    <course>
+      <code>OOSER1</code>
+      <name>Ošetrovateľstvo v rehabilitácii (1)</name>
+      <type>P</type>
+      <semester>ZS</semester>
+      <ayear>2020/2021</ayear>
+      <year_of_study>2</year_of_study>
+      <exam>
+        <result>Abs</result>
+        <date>09.02.2021</date>
+        <teacher>Ing. Ivan 09d50</teacher>
+        <grade>0,00</grade>
+        <credits_reg>1</credits_reg>
+        <credits_obt>1</credits_obt>
+      </exam>
+    </course>
+  </study>
+  <study>
+    <id>S1419020048-5819T01</id>
+    <field_code>4276</field_code>
+    <field>ošetrovateľstvo</field>
+    <course>
+      <code>OPAT</code>
+      <name>Patológia</name>
+      <type>P</type>
+      <semester>ZS</semester>
+      <ayear>2020/2021</ayear>
+      <year_of_study>2</year_of_study>
+      <exam>
+        <result>A</result>
+        <date>19.02.2021</date>
+        <teacher>MUDr. Mgr. Boris 7209a, PhD., MPH</teacher>
+        <grade>1</grade>
+        <credits_reg>2</credits_reg>
+        <credits_obt>2</credits_obt>
+      </exam>
+    </course>
+  </study>
+  <study>
+    <id>S1419020048-5819T01</id>
+    <field_code>4276</field_code>
+    <field>ošetrovateľstvo</field>
+    <course>
+      <code>OPED1</code>
+      <name>Pediatria a ošetrovateľstvo v pediatrii (1)</name>
+      <type>P</type>
+      <semester>ZS</semester>
+      <ayear>2020/2021</ayear>
+      <year_of_study>2</year_of_study>
+      <exam>
+        <result>A</result>
+        <date>20.01.2021</date>
+        <teacher>MUDr. Ivana 1b68ace, PhD.</teacher>
+        <grade>1</grade>
+        <credits_reg>2</credits_reg>
+        <credits_obt>2</credits_obt>
+      </exam>
+    </course>
+  </study>
+  <study>
+    <id>S1419020048-5819T01</id>
+    <field_code>4276</field_code>
+    <field>ošetrovateľstvo</field>
+    <course>
+      <code>OPREVL</code>
+      <name>Preventívne lekárstvo</name>
+      <type>P</type>
+      <semester>ZS</semester>
+      <ayear>2020/2021</ayear>
+      <year_of_study>2</year_of_study>
+      <exam>
+        <result>Abs</result>
+        <date>06.12.2020</date>
+        <teacher>doc. MUDr. Kvetoslava b74fe27, PhD.</teacher>
+        <grade>0,00</grade>
+        <credits_reg>1</credits_reg>
+        <credits_obt>1</credits_obt>
+      </exam>
+    </course>
+  </study>
+  <study>
+    <id>S1419020048-5819T01</id>
+    <field_code>4276</field_code>
+    <field>ošetrovateľstvo</field>
+    <course>
+      <code>OPP</code>
+      <name>Prvá pomoc</name>
+      <type>P</type>
+      <semester>ZS</semester>
+      <ayear>2020/2021</ayear>
+      <year_of_study>2</year_of_study>
+      <exam>
+        <result>Abs</result>
+        <date>17.02.2021</date>
+        <teacher>Bc. Ing. František e0c1ca4, PhD.</teacher>
+        <grade>0,00</grade>
+        <credits_reg>2</credits_reg>
+        <credits_obt>2</credits_obt>
+      </exam>
+    </course>
+  </study>
+  <study>
+    <id>S1419020048-5819T01</id>
+    <field_code>4276</field_code>
+    <field>ošetrovateľstvo</field>
+    <course>
+      <code>OSOP3</code>
+      <name>Súvislá odborná prax (3)</name>
+      <type>P</type>
+      <semester>ZS</semester>
+      <ayear>2020/2021</ayear>
+      <year_of_study>2</year_of_study>
+      <exam>
+        <result>Abs</result>
+        <date>23.02.2021</date>
+        <teacher>doc. PhDr. Mária 4cb8f3de, PhD.</teacher>
+        <grade>0,00</grade>
+        <credits_reg>6</credits_reg>
+        <credits_obt>6</credits_obt>
+      </exam>
+    </course>
+  </study>
+  <study>
+    <id>S1419020048-5819T01</id>
+    <field_code>4276</field_code>
+    <field>ošetrovateľstvo</field>
+    <course>
+      <code>OVNL1</code>
+      <name>Vnútorné lekárstvo a ošetrovateľstvo vo vnútornom lekárstve (1)</name>
+      <type>P</type>
+      <semester>ZS</semester>
+      <ayear>2020/2021</ayear>
+      <year_of_study>2</year_of_study>
+      <exam>
+        <result>A</result>
+        <date>24.01.2021</date>
+        <teacher>Bc. Martin 7e124c</teacher>
+        <grade>1</grade>
+        <credits_reg>2</credits_reg>
+        <credits_obt>2</credits_obt>
+      </exam>
+    </course>
+  </study>
+  <study>
+    <id>S1419020048-5819T01</id>
+    <field_code>4276</field_code>
+    <field>ošetrovateľstvo</field>
+    <course>
+      <code>OVYCH</code>
+      <name>Výchova k zdraviu</name>
+      <type>P</type>
+      <semester>ZS</semester>
+      <ayear>2020/2021</ayear>
+      <year_of_study>2</year_of_study>
+      <exam>
+        <result>Abs</result>
+        <date>10.02.2021</date>
+        <teacher>PhDr. Jana 09ed673, PhD.</teacher>
+        <grade>0,00</grade>
+        <credits_reg>1</credits_reg>
+        <credits_obt>1</credits_obt>
+      </exam>
+    </course>
+  </study>
+  <study>
+    <id>S1419020048-5819T01</id>
+    <field_code>4276</field_code>
+    <field>ošetrovateľstvo</field>
+    <course>
+      <code>OAJ3</code>
+      <name>Anglický jazyk (3)</name>
+      <type>PV</type>
+      <semester>ZS</semester>
+      <ayear>2020/2021</ayear>
+      <year_of_study>2</year_of_study>
+      <exam>
+        <result>Abs</result>
+        <date>26.11.2020</date>
+        <teacher>Ing. Ivan 09d50</teacher>
+        <grade>0,00</grade>
+        <credits_reg>1</credits_reg>
+        <credits_obt>1</credits_obt>
+      </exam>
+    </course>
+  </study>
+</record>

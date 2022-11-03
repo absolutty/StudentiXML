@@ -20,4 +20,8 @@ public class Record {
         this.study.add(study);
     }
 
+    public final String getStudentID() {
+        return student.getId();
+    }
+
 }
