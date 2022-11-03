@@ -1,0 +1,13 @@
+*********************************************
+Error occured at [2022-11-03T16:08:17.221281100Z]
+Date is not correct at line: 
+------
+S1419020048;Denisa;Tyvoľská;S1419020048-5819T01;4276;ošetrovateľstvo;2;ZS;2020/2021;OGER;Geriatria a ošetrovateľstvo v geriatrii;P;C;25.01.2021;Jana 09ed673;17-02-2021;PhDr. Jana 09ed673, PhD.;;;;;;;2;30;30;2;2
+------
+
+*********************************************
+Error occured at [2022-11-03T16:08:27.113768Z]
+Date is not correct at line: 
+------
+S1419020048;Denisa;Tyvoľská;S1419020048-5819T01;4276;ošetrovateľstvo;2;ZS;2020/2021;OGER;Geriatria a ošetrovateľstvo v geriatrii;P;C;25.01.2021;Jana 09ed673;17-02-2021;PhDr. Jana 09ed673, PhD.;;;;;;;2;30;30;2;2
+------

@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d1424f0b-0dc7-4957-88b1-ce461209dd89" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentiXML/sk/uniza/fri/datamodel/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentiXML/sk/uniza/fri/datamodel/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudentiXML/sk/uniza/fri/datamodel/Exam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentiXML/sk/uniza/fri/datamodel/Exam.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sk/uniza/fri/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sk/uniza/fri/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sk/uniza/fri/datamodel/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sk/uniza/fri/datamodel/Record.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sk/uniza/fri/datamodel/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sk/uniza/fri/datamodel/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sk/uniza/fri/datamodel/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sk/uniza/fri/datamodel/Exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sk/uniza/fri/helpers/ReadCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sk/uniza/fri/helpers/ReadCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students/S1419020048.xml" beforeDir="false" afterPath="$PROJECT_DIR$/students/S1419020048.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667386198412</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creating and writing to XML files.">
+      <created>1667487592079</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667487592079</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +188,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Creation of datamodels" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation of datamodels" />
+    <MESSAGE value="Creating and writing to XML files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating and writing to XML files." />
   </component>
 </project>

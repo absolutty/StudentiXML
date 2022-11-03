@@ -3,6 +3,7 @@ package sk.uniza.fri.helpers;
 import sk.uniza.fri.datamodel.*;
 import java.io.IOException;
 import java.nio.file.Path;
+import java.text.ParseException;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -22,60 +23,66 @@ public class ReadCSV {
             scan.nextLine(); //preskoci prvy riadok
 
             while (scan.hasNext()) {
-                String line = scan.next();
-                String[] parts = line.split(CSV_SPLIT_STRING);
+                String line = null;
+                try {
+                    line = scan.next();
+                    String[] parts = line.split(CSV_SPLIT_STRING);
 
-                String studentId = parts[CSV_INDEXES.STUDENT_ID.getIndex()];
-                Student student;
-                Record record;
+                    String studentId = parts[CSV_INDEXES.STUDENT_ID.getIndex()];
+                    Student student;
+                    Record record;
 
-                //hashMap este NEOBSAHUJE dany record
-                if (!hashMap.containsKey(studentId)) {
-                    student = new Student(
-                            studentId,
-                            parts[CSV_INDEXES.STUDENT_NAME.getIndex()],
-                            parts[CSV_INDEXES.STUDENT_SURNAME.getIndex()]
+                    //hashMap este NEOBSAHUJE dany record
+                    if (!hashMap.containsKey(studentId)) {
+                        student = new Student(
+                                studentId,
+                                parts[CSV_INDEXES.STUDENT_NAME.getIndex()],
+                                parts[CSV_INDEXES.STUDENT_SURNAME.getIndex()]
+                        );
+
+                        record = new Record(student);
+
+                        hashMap.put(studentId, record);
+                    }
+                    //hashMap uz OBSAHUJE dany record
+                    else {
+                        record = hashMap.get(studentId);
+                    }
+
+                    Study study = new Study(
+                            parts[CSV_INDEXES.STUDY_ID.getIndex()],
+                            parts[CSV_INDEXES.FIELD_CODE.getIndex()],
+                            parts[CSV_INDEXES.FIELD.getIndex()]
                     );
 
-                    record = new Record(student);
+                    Exam exam = new Exam(
+                            parts[CSV_INDEXES.EXAM_RESULT.getIndex()],
+                            parts[CSV_INDEXES.EXAM_DATE.getIndex()],
+                            parts[CSV_INDEXES.EXAM_TEACHER.getIndex()],
+                            parts[CSV_INDEXES.EXAM_GRADE.getIndex()],
+                            Short.parseShort(parts[CSV_INDEXES.CREDITS_REGISTERED.getIndex()]),
+                            Short.parseShort(parts[CSV_INDEXES.CREDITS_OBTAINED.getIndex()].replaceAll("\r", ""))
+                    );
 
-                    hashMap.put(studentId, record);
+                    Course course = new Course(
+                            parts[CSV_INDEXES.COURSE_CODE.getIndex()],
+                            parts[CSV_INDEXES.COURSE_NAME.getIndex()],
+                            parts[CSV_INDEXES.COURSE_TYPE.getIndex()],
+                            parts[CSV_INDEXES.COURSE_SEMESTER.getIndex()],
+                            parts[CSV_INDEXES.COURSE_YEAR.getIndex()],
+                            Short.parseShort(parts[CSV_INDEXES.COURSE_YEAR_OF_STUDY.getIndex()]),
+                            exam
+                    );
+
+                    record.addStudy(study);
+                    study.addCourse(course);
                 }
-                //hashMap uz OBSAHUJE dany record
-                else {
-                    record = hashMap.get(studentId);
+                catch (ParseException e) { //chybny EXAM datum
+                    WriteError.dateError(line);
+                    System.out.println(e.getMessage());
                 }
-
-                Study study = new Study(
-                        parts[CSV_INDEXES.STUDY_ID.getIndex()],
-                        parts[CSV_INDEXES.FIELD_CODE.getIndex()],
-                        parts[CSV_INDEXES.FIELD.getIndex()]
-                );
-
-                Exam exam = new Exam(
-                        parts[CSV_INDEXES.EXAM_RESULT.getIndex()],
-                        parts[CSV_INDEXES.EXAM_DATE.getIndex()],
-                        parts[CSV_INDEXES.EXAM_TEACHER.getIndex()],
-                        parts[CSV_INDEXES.EXAM_GRADE.getIndex()],
-                        Short.parseShort(parts[CSV_INDEXES.CREDITS_REGISTERED.getIndex()]),
-                        Short.parseShort(parts[CSV_INDEXES.CREDITS_OBTAINED.getIndex()].replaceAll("\r", ""))
-                );
-
-                Course course = new Course(
-                        parts[CSV_INDEXES.COURSE_CODE.getIndex()],
-                        parts[CSV_INDEXES.COURSE_NAME.getIndex()],
-                        parts[CSV_INDEXES.COURSE_TYPE.getIndex()],
-                        parts[CSV_INDEXES.COURSE_SEMESTER.getIndex()],
-                        parts[CSV_INDEXES.COURSE_YEAR.getIndex()],
-                        Short.parseShort(parts[CSV_INDEXES.COURSE_YEAR_OF_STUDY.getIndex()]),
-                        exam
-                );
-
-                record.addStudy(study);
-                study.addCourse(course);
             }
             scan.close();
-
         } catch (IOException ex) {
             ex.printStackTrace();
         }
